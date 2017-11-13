@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>formularz</title>
+</head>
+
+<body>
+
+    <form method="POST" action="http://formspree.io/gkwiatkowska87@gmail.com">
+
+        <label for="name">Imię:</label>
+        <input type="text" id="name" name="Imię:"><br>
+
+        <label for="sname">Nazwisko:</label>
+        <input type="text" id="sname" name="Nazwisko:"><br>
+
+        <label for="email">Adres e-mail:</label>
+        <input type="email" id="email" name="Adres e-mail:"><br>
+
+        <label for="phone">Telefon:</label>
+        <input type="tel" id="phone" name="Telefon:"><br>
+
+        <label for="miasta">Miasta:</label>
+        <select name="Miasta" id="miasta">
+        <option value="Krakow">Krakow</option>
+        <option value="Warszawa">Warszawa</option>
+        <option value="Gdansk">Gdansk</option>
+        </select>
+        <br>
+
+        <label for="kobieta">Kobieta:</label>
+        <input type="radio" id="kobieta" name="Płeć" value="Kobieta" />
+
+        <label for="mezczyzna">Mężczyzna:</label>
+        <input type="radio" id="mezczyzna" name="Płeć" value="Mężczyzna" /><br>
+
+        <label for="zgoda">Zgoda na przetwarzanie danych: </label> <br>
+        <input type="checkbox" id="zgoda" name="Zgoda na przetwarzanie danych" value="Tak" /> Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji <br>
+
+        <label for="wiadomosc">Wiadomość:</label><br>
+        <textarea name="Message" id="wiadomosc"></textarea><br>
+
+        <button type="submit">Wyślij</button>
+
+    </form>
+</body>
+
+</html>
